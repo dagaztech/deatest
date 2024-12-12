@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<tests>
+ <testCaseClass name="Tests\Unit\Models\AnnouncementTest">
+  <testCaseMethod id="Tests\Unit\Models\AnnouncementTest::testGetSlugOptions" name="testGetSlugOptions" groups="default,__phpunit_covers_app\models\announcement"/>
+ </testCaseClass>
+ <testCaseClass name="Tests\Unit\Models\BlogTest">
+  <testCaseMethod id="Tests\Unit\Models\BlogTest::testGetSlugOptions" name="testGetSlugOptions" groups="default,__phpunit_covers_app\models\blog"/>
+ </testCaseClass>
+ <testCaseClass name="Tests\Unit\Models\DashboardWidgetTest">
+  <testCaseMethod id="Tests\Unit\Models\DashboardWidgetTest::testForm" name="testForm" groups="default,__phpunit_covers_app\models\dashboardwidget"/>
+  <testCaseMethod id="Tests\Unit\Models\DashboardWidgetTest::testPoll" name="testPoll" groups="default,__phpunit_covers_app\models\dashboardwidget"/>
+  <testCaseMethod id="Tests\Unit\Models\DashboardWidgetTest::testCreatorId" name="testCreatorId" groups="default,__phpunit_covers_app\models\dashboardwidget"/>
+ </testCaseClass>
+ <testCaseClass name="Tests\Unit\Models\HistoricoLogTest">
+  <testCaseMethod id="Tests\Unit\Models\HistoricoLogTest::testCrear" name="testCrear" groups="default,__phpunit_covers_app\models\historicolog"/>
+ </testCaseClass>
+ <testCaseClass name="Tests\Unit\Models\LoginSecurityTest">
+  <testCaseMethod id="Tests\Unit\Models\LoginSecurityTest::testUser" name="testUser" groups="default,__phpunit_covers_app\models\loginsecurity"/>
+ </testCaseClass>
+ <testCaseClass name="Tests\Unit\Models\settingsTest">
+  <testCaseMethod id="Tests\Unit\Models\settingsTest::testSetEnvironmentValue" name="testSetEnvironmentValue" groups="default,__phpunit_covers_app\models\settings"/>
+ </testCaseClass>
+ <testCaseClass name="Tests\Unit\Models\UserTest">
+  <testCaseMethod id="Tests\Unit\Models\UserTest::testLoginSecurity" name="testLoginSecurity" groups="default,__phpunit_covers_app\models\user"/>
+  <testCaseMethod id="Tests\Unit\Models\UserTest::testCurrentLanguage" name="testCurrentLanguage" groups="default,__phpunit_covers_app\models\user"/>
+  <testCaseMethod id="Tests\Unit\Models\UserTest::testSendPasswordResetNotification" name="testSendPasswordResetNotification" groups="default,__phpunit_covers_app\models\user"/>
+  <testCaseMethod id="Tests\Unit\Models\UserTest::testUploadFolder" name="testUploadFolder" groups="default,__phpunit_covers_app\models\user"/>
+  <testCaseMethod id="Tests\Unit\Models\UserTest::testWithAccessToken" name="testWithAccessToken" groups="default,__phpunit_covers_app\models\user"/>
+  <testCaseMethod id="Tests\Unit\Models\UserTest::testGetAvatarImageAttribute" name="testGetAvatarImageAttribute" groups="default,__phpunit_covers_app\models\user"/>
+  <testCaseMethod id="Tests\Unit\Models\UserTest::testHasVerifiedPhone" name="testHasVerifiedPhone" groups="default,__phpunit_covers_app\models\user"/>
+  <testCaseMethod id="Tests\Unit\Models\UserTest::testLastCodeRemainingSeconds" name="testLastCodeRemainingSeconds" groups="default,__phpunit_covers_app\models\user"/>
+ </testCaseClass>
+</tests>

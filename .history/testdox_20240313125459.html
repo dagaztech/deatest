@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Documentación de Pruebas</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-family: Source SansSerif Pro, Arial, sans-serif;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2rem;
+                background-color: #fff;
+                color: #000;
+            }
+
+            body > ul > li {
+                font-size: larger;
+            }
+
+            h2 {
+                font-size: larger;
+                text-decoration-line: underline;
+                text-decoration-thickness: 2px;
+                margin: 0;
+                padding: 0.5rem 0;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0 0 2rem;
+                padding: 0 0 0 1rem;
+                text-indent: -1rem;
+            }
+
+            .success:before {
+                color: #4e9a06;
+                content: '✓';
+                padding-right: 0.5rem;
+            }
+
+            .defect {
+                color: #a40000;
+            }
+
+            .defect:before {
+                color: #a40000;
+                content: '✗';
+                padding-right: 0.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Anuncios (Tests\Unit\Models\Announcement)</h2>
+        <ul>
+            <li class="defect">Obtener opciones de Slug</li>
+        </ul>
+        <h2>Blog (Tests\Unit\Models\Blog)</h2>
+        <ul>
+            <li class="defect">Obtener opciones de Slug</li>
+        </ul>
+        <h2>Reservas (Tests\Unit\Models\Booking)</h2>
+        <ul>
+            <li class="defect">Obtener matriz de datos</li>
+        </ul>
+        <h2>Valor de Reservas (Tests\Unit\Models\BookingValue)</h2>
+        <ul>
+            <li class="defect">Reservas</li>
+            <li class="defect">Usuarios</li>
+            <li class="defect">Obtener matriz de datos</li>
+        </ul>
+        <h2>Comentarios (Tests\Unit\Models\Comments)</h2>
+        <ul>
+            <li class="defect">Respuestas</li>
+        </ul>
+        <h2>Widget de Panel de Control (Tests\Unit\Models\DashboardWidget)</h2>
+        <ul>
+            <li class="defect">Formularios</li>
+            <li class="defect">Formularios registrados</li>
+            <li class="defect">Creador de ids</li>
+        </ul>
+        <h2>Generador de Documentos (Tests\Unit\Models\DocumentGenrator)</h2>
+        <ul>
+            <li class="defect">Documento</li>
+            <li class="defect">Obtener matriz de datos</li>
+            <li class="defect">Documento menu</li>
+            <li class="defect">Obtener opciones de Slug</li>
+        </ul>
+        <h2>Documento Menu (Tests\Unit\Models\DocumentMenu)</h2>
+        <ul>
+            <li class="defect">Documentos</li>
+            <li class="defect">Obtener opciones de Slug</li>
+        </ul>
+        <h2>Configuración del Footer (Tests\Unit\Models\FooterSetting)</h2>
+        <ul>
+            <li class="defect">Obtener opciones de Slug</li>
+        </ul>
+        <h2>Formulario (Tests\Unit\Models\Form)</h2>
+        <ul>
+            <li class="defect">Obtener matriz de formulario</li>
+            <li class="defect">Roles</li>
+            <li class="defect">Usuarios</li>
+            <li class="defect">Asignar roles</li>
+            <li class="defect">Comandos</li>
+            <li class="defect">Usuarios asignados</li>
+            <li class="defect">Asignar usuario</li>
+            <li class="defect">Roles asignados</li>
+            <li class="defect">Asignar rol</li>
+            <li class="defect">Datos del formulario de integración</li>
+        </ul>
+        <h2>Comentarios del Formulario (Tests\Unit\Models\FormComments)</h2>
+        <ul>
+            <li class="defect">Respuestas</li>
+        </ul>
+        <h2>Valor del Formulario (Tests\Unit\Models\FormValue)</h2>
+        <ul>
+            <li class="defect">Formulario</li>
+            <li class="defect">Usuario</li>
+            <li class="defect">Obtener formularios</li>
+            <li class="defect">Crear PDF</li>
+            <li class="defect">Columnas</li>
+        </ul>
+        <h2>Configuración del Header (Tests\Unit\Models\HeaderSetting)</h2>
+        <ul>
+            <li class="defect">Obtener opciones de Slug</li>
+        </ul>
+        <h2>Historico Log (Tests\Unit\Models\HistoricoLog)</h2>
+        <ul>
+            <li class="defect">Crear Histórico</li>
+        </ul>
+        <h2>Seguridad del Login (Tests\Unit\Models\LoginSecurity)</h2>
+        <ul>
+            <li class="defect">Usuario</li>
+        </ul>
+        <h2>Graficos de datos (Tests\Unit\Models\Poll)</h2>
+        <ul>
+            <li class="defect">Obtener matriz de datos</li>
+            <li class="defect">Obtener matriz de reuniones</li>
+            <li class="defect">Obtener imagen</li>
+            <li class="defect">Comandante</li>
+        </ul>
+        <h2>Solicitudes de Usuario (Tests\Unit\Models\RequestUser)</h2>
+        <ul>
+            <li class="defect">Status</li>
+        </ul>
+        <h2>Plantilla de Mensajes (Tests\Unit\Models\SmsTemplate)</h2>
+        <ul>
+            <li class="defect">Ambiente</li>
+        </ul>
+        <h2>Usuarios (Tests\Unit\Models\User)</h2>
+        <ul>
+            <li class="defect">Login security</li>
+            <li class="defect">Current language</li>
+            <li class="defect">Send password reset notification</li>
+            <li class="defect">Upload folder</li>
+            <li class="defect">With access token</li>
+            <li class="defect">Get avatar image attribute</li>
+            <li class="defect">Has verified phone</li>
+            <li class="defect">Last code remaining seconds</li>
+        </ul>
+        <h2>Configuraciones (Tests\Unit\Models\settings)</h2>
+        <ul>
+            <li class="defect">Establecer valor del entorno</li>
+        </ul>
+    </body>
+</html>

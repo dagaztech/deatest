@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp2\htdocs\dea-template-pwa-last\resources\views/layouts/sidebar.blade.php ENDPATH**/ ?>
